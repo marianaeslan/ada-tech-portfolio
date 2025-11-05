@@ -1,0 +1,187 @@
+/* 3. O CSS (Atualizado) */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #f0f2f5;
+  box-sizing: border-box;
+  background-color: rgb(251, 251, 247);
+}
+
+/* Nav bar */
+.navbar {
+  width: 100%;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+}
+
+.navbar-brand {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 14px 0;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-nav a {
+  display: flex;
+  align-items: center;
+  padding: 14px 20px;
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in;
+}
+
+.navbar-nav a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+}
+
+.navbar-nav a span {
+  margin-left: 8px;
+}
+
+.navbar-nav a i {
+  width: 20px;
+  text-align: center;
+}
+
+/* Main Section */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 160px;
+}
+
+button {
+  font-size: 16px;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 20px;
+  color: black;
+  background-color: rgb(251, 251, 247);
+  border: 2px solid #b6c5f0;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  color: black;
+  background-color: rgb(251, 251, 247);
+  border: 2px solid #0046ff;
+}
+
+.btn-primary {
+  border: none;
+  border-radius: 100px;
+  padding: 10px 15px;
+  margin-right: 4px;
+  color: white;
+  background-color: #0046ff;
+  border: 2px solid #0046ff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  color: black;
+  background-color: rgb(251, 251, 247);
+  border: 2px solid #0046ff;
+}
+
+.hello-tag {
+  width: fit-content;
+  padding: 4px 8px;
+  border: 1px solid #b6c5f0;
+  border-radius: 100px;
+  font-size: 14px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 40px;
+  font-style: italic;
+  margin: 0;
+}
+
+.description {
+  color: rgba(0, 0, 0, 0.768);
+  margin-bottom: 30px;
+}
+
+.home-image {
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.profile-pic {
+  width: 80%;
+  object-fit: fit;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.about {
+  background-color: black;
+  color: white;
+}
+
+.text-about {
+  max-width: 600px;
+  text-align: justify;
+}
+
+h2 {
+  margin: 0 0;
+}
+.badge-star {
+  width: 31px;
+}
+
+article {
+  width: 600px;
+}
+
+.tags {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.periodo {
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 100px;
+  border: 1px solid orange;
+  background-color: rgba(255, 166, 0, 0.256);
+  margin-right: 12px;
+}
+
+.area {
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 100px;
+  border: 1px solid rgb(115, 192, 0);
+  background-color: rgba(172, 255, 47, 0.279);
+}
