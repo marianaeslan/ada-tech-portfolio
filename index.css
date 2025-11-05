@@ -9,9 +9,12 @@ body {
 
 /* Nav bar */
 .navbar {
+  background-color: rgb(251, 251, 247);
   width: 100%;
   overflow: hidden;
 
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -184,4 +187,26 @@ article {
   border-radius: 100px;
   border: 1px solid rgb(115, 192, 0);
   background-color: rgba(172, 255, 47, 0.279);
+}
+
+.skills {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
 }
