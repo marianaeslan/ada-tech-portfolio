@@ -6,6 +6,6 @@
     "sass": "^1.93.3"
   },
   "scripts": {
-    "sass": "sass --watch main.scss:index.css"
+    "sass": "sass --watch scss:css"
   }
 }

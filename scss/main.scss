@@ -10,6 +10,17 @@ body {
   padding: 5rem 0;
 }
 
+.hello-hand {
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.hello-hand:hover {
+  transform: rotate(90deg);
+  transition-delay: 0.05s;
+}
+
 .icons {
   display: flex;
   align-items: start;
