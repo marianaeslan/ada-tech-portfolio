@@ -5,29 +5,19 @@ body {
   background-color: beige;
 }
 
+.home {
+  min-height: 50vh;
+  padding: 5rem 0;
+}
+
+.experience {
+  min-height: 30vh;
+  padding: 2rem 0;
+}
+
 .navbar {
   background-color: beige;
   border-bottom: 1px solid black;
-}
-
-.home {
-  height: 80vh;
-}
-
-.container-sm {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 90px;
-  padding-bottom: 120px;
 }
 
 .home-image {
@@ -42,7 +32,7 @@ body {
 
 .profile-pic {
   width: 80%;
-  object-fit: fit;
+  object-fit: cover;
   border-radius: 50%;
 }
 
@@ -66,7 +56,8 @@ body {
 }
 
 .text-about {
-  width: 680px;
+  width: 100%;
+  max-width: 680px;
 }
 
 .tags {
@@ -90,4 +81,10 @@ body {
   border-radius: 100px;
   border: 1px solid rgb(115, 192, 0);
   background-color: rgba(172, 255, 47, 0.279);
+}
+
+@media (min-width: 992px) {
+  .home {
+    min-height: 80vh;
+  }
 }
