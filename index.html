@@ -4,6 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon_io 2/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon_io 2/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
@@ -73,7 +91,19 @@
           class="container d-flex flex-column flex-lg-row justify-content-between align-items-center text-center text-lg-start"
         >
           <div class="home-content">
-            <img class="mb-2" src="./assets/techs.svg" alt="" />
+            <div class="icons mb-3">
+              <img src="./assets/node.svg" alt="Node.js" class="icon" />
+              <img
+                src="./assets/react.svg"
+                alt="React"
+                class="icon icon-first"
+              />
+              <img
+                src="./assets/next.svg"
+                alt="Next.js"
+                class="icon icon-second"
+              />
+            </div>
             <p class="hello-tag mt-2 mx-auto mx-lg-0">Olá, prazer Mariana 👋</p>
             <h1 class="fs-1 text fw-bold">Front-End Developer</h1>
             <p class="description text-dark-emphasis">
@@ -84,10 +114,14 @@
                 <i class="fas fa-paper-plane me-2"></i>
                 Entrar em Contato
               </button>
-              <button class="btn btn-secondary rounded-pill">
+              <a
+                class="btn btn-secondary rounded-pill"
+                href="https://github.com/marianaeslan"
+                target="_blank"
+              >
                 <i class="fa-brands fa-github-alt me-2"></i>
                 Github
-              </button>
+              </a>
             </div>
           </div>
           <div class="home-image d-none d-lg-flex">

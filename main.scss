@@ -10,6 +10,35 @@ body {
   padding: 5rem 0;
 }
 
+.icons {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 0; /* sem espaço entre os ícones inicialmente */
+  transition: gap 0.4s ease; /* animação suave */
+}
+
+.icon {
+  width: 31px;
+  border-radius: 50%;
+  transition: transform 0.4s ease, margin 0.4s ease;
+}
+
+.icon-first,
+.icon-second {
+  margin-left: -15px;
+}
+
+/* Remove o overlap e cria espaçamento ao passar o mouse */
+.icons:hover {
+  gap: 6px; /* adiciona espaço entre as imagens */
+}
+
+.icons:hover .icon {
+  margin-left: 0;
+  transform: scale(1.05); /* leve aumento visual */
+}
+
 .experience {
   min-height: 30vh;
   padding: 2rem 0;
