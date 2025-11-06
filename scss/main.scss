@@ -1,4 +1,4 @@
-@import "./node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 body {
   font-family: "Poppins", sans-serif;
@@ -13,20 +13,20 @@ body {
 .hello-hand {
   display: inline-block;
   cursor: pointer;
-  transition: transform 0.5s ease;
+  transition: transform 0.5s ease-in-out;
+  transform: rotate(0deg);
 }
 
 .hello-hand:hover {
   transform: rotate(90deg);
-  transition-delay: 0.05s;
 }
 
 .icons {
   display: flex;
   align-items: start;
   justify-content: start;
-  gap: 0; /* sem espaço entre os ícones inicialmente */
-  transition: gap 0.4s ease; /* animação suave */
+  gap: 0;
+  transition: gap 0.4s ease;
 }
 
 .icon {
@@ -40,14 +40,13 @@ body {
   margin-left: -15px;
 }
 
-/* Remove o overlap e cria espaçamento ao passar o mouse */
 .icons:hover {
-  gap: 6px; /* adiciona espaço entre as imagens */
+  gap: 6px;
 }
 
 .icons:hover .icon {
   margin-left: 0;
-  transform: scale(1.05); /* leve aumento visual */
+  transform: scale(1.05);
 }
 
 .experience {
