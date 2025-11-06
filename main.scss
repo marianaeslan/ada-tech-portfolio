@@ -1,0 +1,93 @@
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: beige;
+}
+
+.navbar {
+  background-color: beige;
+  border-bottom: 1px solid black;
+}
+
+.home {
+  height: 80vh;
+}
+
+.container-sm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 90px;
+  padding-bottom: 120px;
+}
+
+.home-image {
+  border: 1px solid var(--bs-blue);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
+  height: 340px;
+}
+
+.profile-pic {
+  width: 80%;
+  object-fit: fit;
+  border-radius: 50%;
+}
+
+.hello-tag {
+  width: fit-content;
+  border: 1px solid rgb(102, 121, 175);
+  border-radius: 100px;
+  padding: 4px 12px;
+}
+
+.btn {
+  padding: 12px 24px;
+}
+
+.btn-primary {
+  margin-right: 6px;
+}
+
+.badge-star {
+  width: 31px;
+}
+
+.text-about {
+  width: 680px;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.periodo {
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 100px;
+  border: 1px solid orange;
+  background-color: rgba(255, 166, 0, 0.256);
+  margin-right: 12px;
+}
+
+.area {
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 100px;
+  border: 1px solid rgb(115, 192, 0);
+  background-color: rgba(172, 255, 47, 0.279);
+}
